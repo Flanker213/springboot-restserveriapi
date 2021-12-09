@@ -16,7 +16,7 @@ public class RestServices {
 	public ResponseEntity<String>pong()
 	{
 		logger.info("Démarrage des services OK .....");
-		return new ResponseEntity<String>("Response du serveur: "+HttpStatus.OK.name(), HttpStatus.OK);
+		return new ResponseEntity<String>("Response du serveur : "+HttpStatus.OK.name(), HttpStatus.OK);
 	}
 
 }
